@@ -1,0 +1,106 @@
+
+Insight 0
+
+   Request id Pickup point Driver id  ... Drop_timestamp Travel Time Distance
+0         619      Airport         1  ...     1:00:00 PM    01:09:00      Far
+1         867      Airport         1  ...     6:47:00 PM    00:50:00   Medium
+2        1807         City         1  ...     9:58:00 AM    00:41:00   Medium
+3        2532      Airport         1  ...    10:03:00 PM    00:55:00   Medium
+4        3112         City         1  ...     9:25:47 AM    00:52:31   Medium
+5        3879      Airport         1  ...    10:28:59 PM    00:31:31   Medium
+6        4270      Airport         1  ...     7:13:15 AM    00:57:43   Medium
+7        5510      Airport         1  ...     6:07:52 AM    00:56:00   Medium
+8        6248         City         1  ...     6:50:51 PM    00:53:24   Medium
+9         267         City         2  ...     7:25:00 AM    00:39:00   Medium
+
+[10 rows x 11 columns]
+
+Insight 1
+
+              Status  Total_Requests
+0     Trip Completed            2831
+1  No Cars Available            2650
+2          Cancelled            1264
+
+Insight 2
+
+   Total_Requests  Trip_Completed  Trip_Completion_Rercent
+0            6745            2831                    41.97
+
+Insight 3
+
+    Day Category  Airport  City
+0  Early Morning      117   178
+1        Morning      565  1952
+2      Afternoon      339   471
+3        Evening     1457   436
+4          Night      624   323
+5     Late Night      136   147
+
+Insight 4
+
+  Pickup point             Status  Total
+0      Airport  No Cars Available   1713
+1      Airport     Trip Completed   1327
+2      Airport          Cancelled    198
+3         City          Cancelled   1066
+4         City     Trip Completed   1504
+5         City  No Cars Available    937
+
+Insight 5
+
+    Day Category  Gaps
+0        Evening  1127
+1        Morning   512
+2          Night   484
+3      Afternoon   228
+4     Late Night   169
+5  Early Morning   130
+
+Insight 6
+
+  Pickup point Distance  Trip_Count
+0      Airport   Medium         824
+1      Airport      Far         394
+2      Airport     Near         109
+3         City   Medium         918
+4         City      Far         483
+5         City     Near         103
+
+Insight 7
+
+  Driver id  Airport  City
+0         9       10     3
+1       225       10     3
+2       134        9     5
+3        80        9     4
+4        69        8     6
+5        51        8     5
+6       223        8     5
+7        27        8     5
+8        36        8     4
+9        85        8     4
+
+Insight 8
+
+  Pickup point  Completed_Trips  ...  Completion_Rate  Incompletion_Rate
+0         City             1504  ...            42.89              57.11
+1      Airport             1327  ...            40.98              59.02
+
+[2 rows x 5 columns]
+
+Insight 9
+
+  Pickup point  Far  Medium  Near
+0      Airport  394     824   109
+1         City  483     918   103
+
+Insight 10
+
+    Day Category  Avg_Time_Minutes
+0      Afternoon             32.95
+1        Evening             32.83
+2  Early Morning             32.67
+3          Night             31.95
+4        Morning             31.68
+5     Late Night             29.37
