@@ -1,6 +1,6 @@
 # Uber-Supply-Demand-Gaps
 
-Youtube: 
+Youtube: https://youtu.be/Tzfo7GsDuG4
 
 I worked on analyzing Uber ride request data to identify rider behavior patterns. The dataset included over 6,700 records with several missing values, unstructured timestamps, and mixed data types.
 
